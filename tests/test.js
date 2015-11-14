@@ -2,7 +2,7 @@ module.exports = {
   'Add new Element' : function (browser) {
     
     browser
-      .url('http://localhost/night')
+      .url('http://localhost/nightwatchjs')
       .waitForElementVisible('ul', 1000)
       .elements('css selector','#todoList li', function (result) {
           browser.assert.equal(result.value.length, 5);
@@ -16,7 +16,7 @@ module.exports = {
   'Check if input was well cleaned' : function (browser) {
     
     browser
-      .url('http://localhost/night')
+      .url('http://localhost/nightwatchjs')
       .waitForElementVisible('ul', 1000) 
       .getAttribute("#newTodoText", "value", function(result) {             
           this.assert.equal(result.value, "");
