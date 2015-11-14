@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="2">
+
+  <testsuite name="test"
+    errors="0" failures="0" hostname="" id="" package="test" skipped="0"
+    tests="2" time="0.000" timestamp="Fri, 13 Nov 2015 23:49:44 GMT">
+  
+    <testcase name="Add new Element" time="2.383" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Check if input was well cleaned" time="1.046" assertions="4">
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+  
+  </testsuite>
+</testsuites>
